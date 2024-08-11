@@ -1,6 +1,6 @@
 # Fine-Tuning with LoRA
 
-This repository contains a comprehensive pipeline for fine-tuning a model using the LoRA (Low-Rank Adaptation of Large Language Models) technique. The project utilizes the Hugging Face Transformers library alongside other essential packages to preprocess data, train a model, and perform inference.
+This repository contains a comprehensive pipeline for fine-tuning a model using the `LoRA` (Low-Rank Adaptation of Large Language Models) technique. The project utilizes the Hugging Face Transformers library alongside other essential packages to preprocess data, train a model, and perform inference.
 
 ## Training Details
 
@@ -14,7 +14,7 @@ LoRA is a highly efficient training technique that reduces the number of trainab
 
 - ## Training Setup
 
-The SFTTrainer class from the `trl` library is used to manage the training process.
+The `SFTTrainer` class from the `trl` library is used to manage the training process.
 
 - ## Model Merging
 
